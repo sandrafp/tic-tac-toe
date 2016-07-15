@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic tac toe</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h1>tic tac toe x3 (#)</h1>
+                </div>
+            </div>
+            <div class="row columna">
+                <div class="col-md-8 col-md-offset-2">
+                  <div id="columna1" class="row text-center">
+                    <div id="uno"class="col-xs-4" >+</div>
+                    <div id="dos"class="col-xs-4 lista">+</div>
+                    <div id="tres"class="col-xs-4 lista">+</div>
+                  </div>
+                    <div id="columna2"class="row text-center">
+                        <div id="cuatro"class="col-xs-4">+</div>
+                        <div id="cinco"class="col-xs-4 lista">+</div>
+                        <div id="seis"class="col-xs-4 lista">+</div>
+                    </div>
+                    <div id="columna3" class="row text-center">
+                        <div id="siete"class="col-xs-4">+</div>
+                        <div id="ocho"class="col-xs-4 lista">+</div>
+                        <div id="nueve"class="col-xs-4 lista">+</div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                  <button onclick="revisar()" class="btn btn-success btn-block btn-lg">detener juego</button>
+                </div>
+            </div>
+          </div>
+  
+
+        
+        <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+        <script src="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

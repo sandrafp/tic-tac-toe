@@ -1,0 +1,7 @@
+body{ background-color: black; color: whitesmoke; }
+.col-xs-4{ font-size: 60px; height: 150px; padding-top: 28px;}
+#columna1 .col-xs-4,
+#columna2 .col-xs-4 { border-bottom: 2px solid white; }
+
+.columna, .btn.btn-success.btn-block{ margin: 50px 0px; }
+.lista{ border-left: 2px solid white; }
